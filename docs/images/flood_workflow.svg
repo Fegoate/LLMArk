@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="black" />
+  </marker>
+</defs>
+<g font-family="Arial" font-size="16">
+  <rect x="20" y="60" width="140" height="120" fill="#f5f5f5" stroke="black"/>
+  <text x="90" y="125" text-anchor="middle">输入图像</text>
+  <rect x="190" y="60" width="150" height="120" fill="#f5f5f5" stroke="black"/>
+  <text x="265" y="110" text-anchor="middle">高分辨率处理</text>
+  <rect x="360" y="60" width="150" height="120" fill="#f5f5f5" stroke="black"/>
+  <text x="435" y="110" text-anchor="middle">目标检测</text>
+  <text x="435" y="135" text-anchor="middle" font-size="14">生成BBox</text>
+  <rect x="530" y="60" width="150" height="120" fill="#f5f5f5" stroke="black"/>
+  <text x="605" y="110" text-anchor="middle">提示词拼装</text>
+  <text x="605" y="135" text-anchor="middle" font-size="14">位置+问题</text>
+  <rect x="700" y="60" width="150" height="120" fill="#f5f5f5" stroke="black"/>
+  <text x="775" y="110" text-anchor="middle">多模态推理生成</text>
+  <rect x="870" y="60" width="150" height="120" fill="#f5f5f5" stroke="black"/>
+  <text x="945" y="110" text-anchor="middle">救援建议</text>
+  <text x="945" y="135" text-anchor="middle" font-size="14">与可视化</text>
+  <line x1="160" y1="120" x2="190" y2="120" stroke="black" marker-end="url(#arrow)" />
+  <line x1="340" y1="120" x2="360" y2="120" stroke="black" marker-end="url(#arrow)" />
+  <line x1="510" y1="120" x2="530" y2="120" stroke="black" marker-end="url(#arrow)" />
+  <line x1="680" y1="120" x2="700" y2="120" stroke="black" marker-end="url(#arrow)" />
+  <line x1="850" y1="120" x2="870" y2="120" stroke="black" marker-end="url(#arrow)" />
+</g>
+</svg>
